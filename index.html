@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cats Market</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>Granny's cats</h1>
+</header>
+
+<main class="shop" role="main">
+	<input id="shop-breed-switch1" class="shop__shop-breed-switch" type="radio" name="breed-switch">
+	<input id="shop-breed-switch2" class="shop__shop-breed-switch" type="radio" name="breed-switch">
+	<input id="shop-breed-switch3" class="shop__shop-breed-switch" type="radio" name="breed-switch">
+	<input id="shop-breed-switch4" class="shop__shop-breed-switch" type="radio" name="breed-switch">
+	
+	
+	<section class="shop__shop-breeds">
+		<label for="shop-breed-switch1" class="shop__shop-breed-label shop__shop-breed-label1">Abyss</label>
+		<label for="shop-breed-switch2" class="shop__shop-breed-label shop__shop-breed-label2">Brit</label>
+		<label for="shop-breed-switch3" class="shop__shop-breed-label shop__shop-breed-label3">Blue</label>
+		<label for="shop-breed-switch4" class="shop__shop-breed-label shop__shop-breed-label4">Siam</label>
+	</section>
+	
+	
+	<section class="shop__shop-gallery">
+		<div class="shop__shop-gallery-row shop__shop-gallery-row-t2">
+			<div class="cat-item" data-breed="abyss" data-description="cat abyss1">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/5vk.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat abyss1, 1year</div>
+			</div>
+			<div class="cat-item" data-breed="brit" data-description="cat brit1">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/d3b.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat brit1, 2year</div>
+			</div>
+		</div>
+		
+		<div class="shop__shop-gallery-row shop__shop-gallery-row-t3">
+			<div class="cat-item" data-breed="blue" data-description="cat blue1">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">blue 1, 1year</div>
+			</div>
+			<div class="cat-item" data-breed="brit" data-description="cat brit2">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/7-1CtKMRr.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat brit2, 1year</div>
+			</div>
+			<div class="cat-item" data-breed="siam" data-description="cat siam1">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/9v5.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat siam1, 3year</div>
+			</div>
+		</div>
+		
+		<div class="shop__shop-gallery-row shop__shop-gallery-row-t2 row-reverse">
+			<div class="cat-item" data-breed="abyss" data-description="cat abyss2">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/7ni.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat abyss2, 1year</div>
+			</div>
+			<div class="cat-item" data-breed="siam" data-description="cat blue2">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/9v3.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat siam2, 1year</div>
+			</div>
+		</div>
+		
+		<div class="shop__shop-gallery-row shop__shop-gallery-row-t1">
+			<div class="cat-item" data-breed="blue" data-description="cat blue2">
+				<div class="cat-item__cat-image">
+					<img class="image" src="https://cdn2.thecatapi.com/images/inJE3Tkfd.jpg" alt="cat">
+				</div>
+				<div class="cat-item__cat-description">cat blue2, 2year</div>
+			</div>
+		</div>
+	
+	
+	</section>
+	
+	<section class="shop__shop-rating-sort">
+		<div class="shop__shop-rating-title">Rating</div>
+		
+		<label for="shop-sort-switch" class="shop__shop-sort-label">Order descending</label>
+		<input id="shop-sort-switch" class="shop__shop-sort-switch" type="checkbox" name="sort-switch">
+		<div class="sort-items-container">
+			<div class="sort-item" data-rating="8">
+				<p>Abyss</p>
+				<div class="sort-item-rating">
+					<div class="shop-item-rating-bar" data-rating="8"></div>
+					<span>8</span>
+				</div>
+			</div>
+			<div class="sort-item" data-rating="4">
+				<p>Brit</p>
+				<div class="sort-item-rating">
+					<div class="shop-item-rating-bar" data-rating="4"></div>
+					<span>4</span>
+				</div>
+			</div>
+			<div class="sort-item" data-rating="10">
+				<p>Blue</p>
+				<div class="sort-item-rating">
+					<div class="shop-item-rating-bar" data-rating="10"></div>
+					<span>10</span>
+				</div>
+			</div>
+			<div class="sort-item" data-rating="1">
+				<p>Siam</p>
+				<div class="sort-item-rating">
+					<div class="shop-item-rating-bar" data-rating="1"></div>
+					<span>1</span>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<footer>
+	<div>Eugene Butovka</div>
+	<div>Contact information: <a href="mailto:eugene.butovka@gmail.com">
+		eugene.butovka@gmail.com</a>.
+	</div>
+</footer>
+
+</body>
+</html>
